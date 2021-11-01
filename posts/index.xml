@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My Digital Mewsings Blog</title>
+    <link>https://dmahon30.github.io/posts/</link>
+    <description>Recent content in Posts on My Digital Mewsings Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Nov 2021 08:42:40 -0400</lastBuildDate><atom:link href="https://dmahon30.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I created this website</title>
+      <link>https://dmahon30.github.io/posts/staticwebdesign/</link>
+      <pubDate>Mon, 01 Nov 2021 08:42:40 -0400</pubDate>
+      
+      <guid>https://dmahon30.github.io/posts/staticwebdesign/</guid>
+      <description>What I was trying to do  I&amp;rsquo;m trying to expand my skillset when it comes to web design - I&amp;rsquo;ve worked with dynamic websites before like Wordpress and Wix, but I&amp;rsquo;ve never made my own static website. Suffice it to say, I am excited to learn more about how to tweek these sites to suit my design needs. I knew I need to generate a URL via Github, then upload the Hugo template to that rep in order for Github to read it as a website.</description>
+    </item>
+    
+  </channel>
+</rss>

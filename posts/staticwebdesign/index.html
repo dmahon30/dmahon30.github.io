@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>How I created this website | My Digital Mewsings Blog</title>
+<meta name="keywords" content="" />
+<meta name="description" content="What I was trying to do  I&rsquo;m trying to expand my skillset when it comes to web design - I&rsquo;ve worked with dynamic websites before like Wordpress and Wix, but I&rsquo;ve never made my own static website. Suffice it to say, I am excited to learn more about how to tweek these sites to suit my design needs. I knew I need to generate a URL via Github, then upload the Hugo template to that rep in order for Github to read it as a website.">
+<meta name="author" content="">
+<link rel="canonical" href="https://dmahon30.github.io/posts/staticwebdesign/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://dmahon30.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://dmahon30.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://dmahon30.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://dmahon30.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://dmahon30.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.88.1" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="How I created this website" />
+<meta property="og:description" content="What I was trying to do  I&rsquo;m trying to expand my skillset when it comes to web design - I&rsquo;ve worked with dynamic websites before like Wordpress and Wix, but I&rsquo;ve never made my own static website. Suffice it to say, I am excited to learn more about how to tweek these sites to suit my design needs. I knew I need to generate a URL via Github, then upload the Hugo template to that rep in order for Github to read it as a website." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dmahon30.github.io/posts/staticwebdesign/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-11-01T08:42:40-04:00" />
+<meta property="article:modified_time" content="2021-11-01T08:42:40-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How I created this website"/>
+<meta name="twitter:description" content="What I was trying to do  I&rsquo;m trying to expand my skillset when it comes to web design - I&rsquo;ve worked with dynamic websites before like Wordpress and Wix, but I&rsquo;ve never made my own static website. Suffice it to say, I am excited to learn more about how to tweek these sites to suit my design needs. I knew I need to generate a URL via Github, then upload the Hugo template to that rep in order for Github to read it as a website."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://dmahon30.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "How I created this website",
+      "item": "https://dmahon30.github.io/posts/staticwebdesign/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How I created this website",
+  "name": "How I created this website",
+  "description": "What I was trying to do  I\u0026rsquo;m trying to expand my skillset when it comes to web design - I\u0026rsquo;ve worked with dynamic websites before like Wordpress and Wix, but I\u0026rsquo;ve never made my own static website. Suffice it to say, I am excited to learn more about how to tweek these sites to suit my design needs. I knew I need to generate a URL via Github, then upload the Hugo template to that rep in order for Github to read it as a website.",
+  "keywords": [
+    
+  ],
+  "articleBody": "What I was trying to do  I’m trying to expand my skillset when it comes to web design - I’ve worked with dynamic websites before like Wordpress and Wix, but I’ve never made my own static website. Suffice it to say, I am excited to learn more about how to tweek these sites to suit my design needs. I knew I need to generate a URL via Github, then upload the Hugo template to that rep in order for Github to read it as a website. Static website tutorial   How it connects to my research  I plan on using static sites to host a digital portfolio, as well as hosting the final DH creation project that I’m working on.   What I did  step 1: Build site with GH pages.  Created new repository in Github called dmahon30-github-io This format is what allows Github to read the repo as a website.   step 2: Content  Add an .md file to the repo and Github will add it to the web content.   step 3: Enable Pages (Settings of your repo)  Ensure the repo is in the main branch and you’ve got a basic website!   step 4: Adding template from Hugo  Download template. Upload according to the Quick Start tutorial. Change the content in the Example.site in lieu of step 4 in the above Quick Start tutorial (easiest way to manipulate the template) and upload that template content to your Github website repo. Note: Need to add the content from the PUBLIC folder generated.    Challenges Biggest challenges for the static website\nAdding the Template\n I needed to move template directory to my ’themes’ folder in my site directory in order for the template to be read.  Pushing local rep (public) to remote repo on Github\n I had to use the command git pull I think and then these commands that were pulled from the command line:  `\tgit commit -m \"first commit\" git branch -M main git remote add origin [repo URL] git push -u origin main` Resources that I used to Troubleshoot:\n  https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7\n  https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote\n  https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd\n  https://gohugo.io/getting-started/quick-start/\n  perhaps the most important resource is this one:\n Creating a Blog with Hugo in 10 Minutes  Thoughts on where to go next I’d like to populate the site with images and sound files, so I’m working on that now - wish me luck!\n",
+  "wordCount" : "385",
+  "inLanguage": "en",
+  "datePublished": "2021-11-01T08:42:40-04:00",
+  "dateModified": "2021-11-01T08:42:40-04:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dmahon30.github.io/posts/staticwebdesign/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "My Digital Mewsings Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dmahon30.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://dmahon30.github.io/" accesskey="h" title="My Digital Mewsings Blog (Alt + H)">My Digital Mewsings Blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      How I created this website
+    </h1>
+    <div class="post-meta"><span title='2021-11-01 08:42:40 -0400 EDT'>November 1, 2021</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="what-i-was-trying-to-do">What I was trying to do<a hidden class="anchor" aria-hidden="true" href="#what-i-was-trying-to-do">#</a></h1>
+<ul>
+<li>I&rsquo;m trying to expand my skillset when it comes to web design - I&rsquo;ve worked with dynamic websites before like Wordpress and Wix, but I&rsquo;ve never made my own static website. Suffice it to say, I am excited to learn more about how to tweek these sites to suit my design needs.</li>
+<li>I knew I need to generate a URL via Github, then upload the Hugo template to that rep in order for Github to read it as a website.</li>
+<li><a href="https://graddh.netlify.app/docs/tutorials/static-websites/">Static website tutorial</a></li>
+</ul>
+<hr>
+<h2 id="how-it-connects-to-my-research">How it connects to my research<a hidden class="anchor" aria-hidden="true" href="#how-it-connects-to-my-research">#</a></h2>
+<ul>
+<li>I plan on using static sites to host a digital portfolio, as well as hosting the final DH creation project that I&rsquo;m working on.</li>
+</ul>
+<hr>
+<h2 id="what-i-did">What I did<a hidden class="anchor" aria-hidden="true" href="#what-i-did">#</a></h2>
+<ul>
+<li>step 1: Build site with GH pages.
+<ul>
+<li>Created new repository in Github called <code>dmahon30-github-io</code></li>
+<li>This format is what allows Github to read the repo as a website.</li>
+</ul>
+</li>
+<li>step 2: Content
+<ul>
+<li>Add an .md file to the repo and Github will add it to the web content.</li>
+</ul>
+</li>
+<li>step 3: Enable Pages (Settings of your repo)
+<ul>
+<li>Ensure the repo is in the <code>main branch</code> and you&rsquo;ve got a basic website!</li>
+</ul>
+</li>
+<li>step 4: Adding template from Hugo
+<ul>
+<li>Download template.</li>
+<li>Upload according to the <a href="https://gohugo.io/getting-started/quick-start/">Quick Start tutorial</a>.</li>
+<li>Change the content in the Example.site in lieu of step 4 in the above Quick Start tutorial (easiest way to manipulate the template) and upload that template content to your Github website repo.</li>
+<li>Note: Need to add the content from the PUBLIC folder generated.</li>
+</ul>
+</li>
+</ul>
+<h2 id="challenges">Challenges<a hidden class="anchor" aria-hidden="true" href="#challenges">#</a></h2>
+<p>Biggest challenges for the static website</p>
+<p><em>Adding the Template</em></p>
+<ul>
+<li>I needed to move template directory to my ’themes’ folder in my site directory in order for the template to be read.</li>
+</ul>
+<p><em>Pushing local rep (public) to remote repo on Github</em></p>
+<ul>
+<li>I had to use the command git pull I think and then these commands that were pulled from the command line:</li>
+</ul>
+<pre tabindex="0"><code>`	git commit -m &quot;first commit&quot;
+		git branch -M main
+		git remote add origin [repo URL]
+		git push -u origin main`
+</code></pre><p><em>Resources that I used to Troubleshoot</em>:</p>
+<ul>
+<li>
+<p><a href="https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7">https://levelup.gitconnected.com/build-a-personal-website-with-github-pages-and-hugo-6c68592204c7</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote">https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote</a></p>
+</li>
+<li>
+<p><a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd">https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd</a></p>
+</li>
+<li>
+<p><a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
+</li>
+</ul>
+<p><em>perhaps the most important resource is this one</em>:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=LIFvgrRxdt4&amp;ab_channel=RyanSchachte">Creating a Blog with Hugo in 10 Minutes</a></li>
+</ul>
+<h2 id="thoughts-on-where-to-go-next">Thoughts on where to go next<a hidden class="anchor" aria-hidden="true" href="#thoughts-on-where-to-go-next">#</a></h2>
+<p>I&rsquo;d like to populate the site with images and sound files, so I&rsquo;m working on that now - wish me luck!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2021 <a href="https://dmahon30.github.io/">My Digital Mewsings Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

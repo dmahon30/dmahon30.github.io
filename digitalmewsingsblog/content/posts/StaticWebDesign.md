@@ -1,6 +1,7 @@
 ---
 title: "How I created this website"
 date: 2021-11-01T08:42:40-04:00
+images: "/posts/cat-computer.jpg"
 ---
 
 
@@ -63,3 +64,5 @@ Biggest challenges for the static website
 ## Thoughts on where to go next
 
 I'd like to populate the site with images and sound files, so I'm working on that now - wish me luck!
+
+![](/posts/cat-computer.jpg)

@@ -1,2 +1,2 @@
-![](cat-computer.jpeg)
+![](/images/cat-computer.jpeg)
 

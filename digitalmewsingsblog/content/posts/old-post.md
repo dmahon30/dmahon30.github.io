@@ -1,2 +1,0 @@
-![](/images/cat-computer.jpeg)
-

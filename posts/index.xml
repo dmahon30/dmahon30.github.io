@@ -6,7 +6,27 @@
     <description>Recent content in Posts on My Digital Mewsings Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Nov 2021 08:42:40 -0400</lastBuildDate><atom:link href="https://dmahon30.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Dec 2021 08:42:40 -0400</lastBuildDate><atom:link href="https://dmahon30.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital History Project Paradata</title>
+      <link>https://dmahon30.github.io/posts/paradata/</link>
+      <pubDate>Wed, 08 Dec 2021 08:42:40 -0400</pubDate>
+      
+      <guid>https://dmahon30.github.io/posts/paradata/</guid>
+      <description>Sounding the Transcript: Creating Soundscapes using TF-IDF Scores of Oral History Transcripts Macrodata In oral history practice, transcripts are used to quickly scan the interview for subject matter and key words, helping the listener identify thematic patterns in the content (Gref, Kohler, and Leh: 2018). The transcript also filters out the emotional context, tone, silences, in which meaning is expressed (High, 194).
+With the digital turn, databases have made oral histories more accessible and searchable, by tethering transcripts to the recording to help bridge the gap between transcription and context  (Luo, Xiao, &amp;amp; High: 2013).</description>
+    </item>
+    
+    <item>
+      <title>DevLog 2</title>
+      <link>https://dmahon30.github.io/posts/devlog2/</link>
+      <pubDate>Tue, 30 Nov 2021 12:13:43 -0500</pubDate>
+      
+      <guid>https://dmahon30.github.io/posts/devlog2/</guid>
+      <description>Oral History Sonic Soundcloud: Experimentation DevLog 2: The Struggle to Sonify Transcript Data is Real. The Initial Plans (Spoiler: There are 2)   Plan number one: I wanted to take workforce data from the Africville Relocation Report and sonify that to interpret a conversation about labour data between genders.
+  Plan number two: The first plan was simply to challenge myself to work with quantitative data to make an argument through sonal interpretation (rather than the usual essay format of historical argumentation).</description>
+    </item>
+    
     <item>
       <title>How I created this website</title>
       <link>https://dmahon30.github.io/posts/staticwebdesign/</link>
